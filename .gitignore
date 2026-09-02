@@ -1,0 +1,14 @@
+# Dependencies (installed locally for the headless movement tests only;
+# the browser app itself loads three.js from CDN via the import map).
+node_modules/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temp screenshots / logs generated during local verification
+_shot*.png
+_s*.png
+_clog.txt
+_probe.js

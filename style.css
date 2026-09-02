@@ -1,0 +1,22 @@
+/* ------------------------------------------------------------------
+   Minimal pure-white full-screen stage.
+   The caterpillar is the only thing on screen — no UI, text, or chrome.
+------------------------------------------------------------------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background:#ffffff;
+  /* Crosshair communicates "this is a cursor-following experiment"
+     while staying visually minimal.*/
+  cursor: crosshair;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  inset: 0;
+}

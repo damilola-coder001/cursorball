@@ -1,0 +1,13 @@
+{
+  "name": "caterpillar-experiment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal 3D black caterpillar that organically crawls toward the mouse cursor.",
+  "scripts": {
+    "test": "node test-movement.js"
+  },
+  "devDependencies": {
+    "three": "^0.162.0"
+  }
+}
